@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/joshuasymons-webb/Desktop/Darminsky/darminsky/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/Users/joshuasymons-webb/Desktop/Darminsky/darminsky/obj/Debug/net8.0/compressed/s6dzh53ln1.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/Users/joshuasymons-webb/Desktop/Darminsky/darminsky/obj/Debug/net8.0/scopedcss/bundle/darminsky.styles.css",
+      "PackagePath": "staticwebassets/darminsky.styles.css"
+    },
+    {
+      "Id": "/Users/joshuasymons-webb/Desktop/Darminsky/darminsky/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/joshuasymons-webb/Desktop/Darminsky/darminsky/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/joshuasymons-webb/Desktop/Darminsky/darminsky/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/joshuasymons-webb/Desktop/Darminsky/darminsky/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/joshuasymons-webb/Desktop/Darminsky/darminsky/wwwroot/fonts/Mona-Sans.woff2",
+      "PackagePath": "staticwebassets/fonts/Mona-Sans.woff2"
+    },
+    {
+      "Id": "/Users/joshuasymons-webb/Desktop/Darminsky/darminsky/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/Users/joshuasymons-webb/Desktop/Darminsky/darminsky/wwwroot/images/icon-main.svg",
+      "PackagePath": "staticwebassets/images/icon-main.svg"
+    },
+    {
+      "Id": "/Users/joshuasymons-webb/Desktop/Darminsky/darminsky/wwwroot/images/logo-main.svg",
+      "PackagePath": "staticwebassets/images/logo-main.svg"
+    },
+    {
+      "Id": "/Users/joshuasymons-webb/Desktop/Darminsky/darminsky/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.darminsky.props",
+      "PackagePath": "build\\darminsky.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.darminsky.props",
+      "PackagePath": "buildMultiTargeting\\darminsky.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.darminsky.props",
+      "PackagePath": "buildTransitive\\darminsky.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.darminsky.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
