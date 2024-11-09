@@ -193,7 +193,7 @@ a, .btn-link {
     position: absolute;
     text-align: center;
     font-weight: bold;
-    inset: calc(20vh + 3.25rem) 0 auto 0.2rem;
+    inset: calc(23.5vh + 3.25rem) 0 auto 0.2rem;
 }
 
     .loading-progress-text:after {
@@ -226,7 +226,8 @@ code {
     }
 
     body {
-        padding: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }
 
