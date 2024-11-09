@@ -23,4 +23,8 @@
     </Content>
   </ItemGroup>
 
+  <Target Name="CopyWebConfig" AfterTargets="Publish">
+    <Copy SourceFiles="web.config" DestinationFolder="$(PublishDir)" />
+  </Target>
+
 </Project>
