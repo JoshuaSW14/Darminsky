@@ -26,7 +26,7 @@ h1, .display-1 {
 }
 
 h2, .display-2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #66356E;
     margin-bottom: 16px;
@@ -37,8 +37,8 @@ h2, .display-2 {
     }
 
 h3, .display-3 {
-    font-size: 1.75rem;
-    font-weight: normal;
+    font-size: 2rem;
+    font-weight: bold;
     color: #66356E;
     margin-bottom: 12px;
 }
@@ -51,7 +51,7 @@ h5 {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: normal;
     color: #adadb3;
     /*max-width: 800px;*/ /* Restricts width for readability */
@@ -212,11 +212,11 @@ code {
     }
 
     h2, .display-2 {
-        font-size: 90px;
+        font-size: 2.5rem;
     }
 
     h3, .display-3 {
-        font-size: 50px;
+        font-size: 2rem;
     }
 }
 
@@ -236,7 +236,7 @@ code {
 
 /* Subtitle Paragraph */
 p.subtitle {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     max-width: 600px; /* Reduce width for better readability */
     margin-top: 10px; /* Add a bit of spacing from the header */
     color: #adadb3;
@@ -304,7 +304,7 @@ button.btn-primary {
 
 /* Increase input and textarea size */
 form .form-control {
-    font-size: 1.1rem; /* Larger font size */
+    font-size: 0.5em; /* Larger font size */
     padding: 15px; /* More padding for a larger field */
     height: auto; /* Allow height to adjust based on padding */
     border-radius: 8px; /* Optional: rounded corners for a softer look */
@@ -327,4 +327,24 @@ form .btn-primary {
 form.container {
     max-width: 700px; /* Wider form for better spacing */
     margin: 0 auto; /* Center the form */
+}
+
+@media (min-width: 768px) {
+    /* Increase input and textarea size */
+    form .form-control {
+        font-size: 1.1rem; /* Larger font size */
+        padding: 15px; /* More padding for a larger field */
+    }
+
+        /* Full-width for textarea */
+        form .form-control[name="Message"] {
+            height: 150px; /* Larger height for the textarea */
+            resize: vertical; /* Allow vertical resizing */
+        }
+
+    /* Button Styling */
+    form .btn-primary {
+        font-size: 1.2rem;
+        padding: 10px 30px;
+    }
 }
