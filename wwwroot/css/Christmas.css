@@ -66,3 +66,12 @@
         opacity: 1;
     }
 }
+
+/* Christmas-Themed Title */
+.christmas-title {
+    font-family: 'Mountains of Christmas', cursive, sans-serif; /* Festive font */
+    font-size: 3rem; /* Large size */
+    color: #ff0000; /* Christmas red */
+    text-align: center;
+    margin-bottom: 20px;
+}
