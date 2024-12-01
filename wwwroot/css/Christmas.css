@@ -1,0 +1,68 @@
+/* Hide the title and text when unlocked */
+.box-card.unlocked .card-title,
+.box-card.unlocked .card-text {
+    display: none;
+}
+
+/* Expand the box to fill the card */
+.svg-box-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    animation: expand-box 1s forwards ease-in-out;
+}
+
+@keyframes expand-box {
+    0% {
+        width: 100px;
+        height: 100px;
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Box Lid Animation */
+.svg-lid {
+    transform-origin: center bottom;
+    transform: rotate(0deg); /* Default position */
+    transition: transform 1s ease-in-out; /* Smooth lid opening */
+}
+
+.svg-box.animate .svg-lid {
+    transform: rotate(-120deg); /* Lid opens */
+}
+
+/* Hide the box after animation */
+.svg-box-wrapper.hidden {
+    display: none;
+}
+
+/* Text reveal with a fade-in effect */
+.reveal-text {
+    display: none;
+    font-size: 1.2rem;
+    color: #008000;
+    animation: fade-in 1s ease-in-out forwards;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.box-card.unlocked .reveal-text {
+    display: block;
+}
+
+/* Keyframes for fade-in */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
